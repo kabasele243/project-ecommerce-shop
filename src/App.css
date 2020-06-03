@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+
 body {
-  font-family: "Playfair Display", serif;
-  padding: 20px 60px;
+  font-family: 'Manrope', sans-serif;
+  /* padding: 20px 60px; */
 }
 a {
   text-decoration: none;

@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
+  background-color: #0396ff;
+  color: white;
   height: 70px;
   width: 100%;
   display: flex;
@@ -12,8 +14,9 @@ export const HeaderContainer = styled.div`
 
 export const LogoContainer = styled(Link)`
   height: 100%;
-  width: 70px;
-  padding: 25px;
+  width: 100%;
+  color: white;
+  margin-left: 25px;
 `;
 
 export const OptionsContainer = styled.div`
@@ -27,4 +30,5 @@ export const OptionsContainer = styled.div`
 export const OptionLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
+  color: white;
 `;
