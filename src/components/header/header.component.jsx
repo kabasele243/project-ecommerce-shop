@@ -12,6 +12,7 @@ import { selectCurrentUser } from "../../redux/user/user.selector";
 import {
   HeaderContainer,
   LogoContainer,
+  Logo,
   OptionsContainer,
   OptionLink
 } from "./header.styles";
@@ -19,7 +20,7 @@ import {
 const Header = ({ currentUser, hidden }) => (
   <HeaderContainer>
     <LogoContainer to="/">
-      <h1 className='logo'>KenaShop</h1>
+      <Logo>Kenashop</Logo>
       {/* <Logo className="logo" /> */}
     </LogoContainer>
     <OptionsContainer>

@@ -3,6 +3,9 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background-color: #0396ff;
   color: white;
   height: 70px;
@@ -18,6 +21,10 @@ export const LogoContainer = styled(Link)`
   color: white;
   margin-left: 25px;
 `;
+
+export const Logo = styled.h1`
+  margin-bottom: 0;
+`
 
 export const OptionsContainer = styled.div`
   width: 50%;
