@@ -57,3 +57,19 @@
     }
   }
 }
+
+.collection-item-button{
+  position: relative;
+  top: 13px;
+  border:  solid 1px gray;
+  // box-shadow: -1px 0px 16px 1px rgba(235,226,235,1);
+  border-radius: 2%;
+  width: 60%;
+}
+
+@media only screen and (max-width: 1385px) {
+  .collection-item-button{
+    width: 85%;
+  }
+ 
+}
