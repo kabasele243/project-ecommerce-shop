@@ -2,5 +2,13 @@
   width: 850px;
   display: flex;
   justify-content: space-between;
-  margin: 30px auto;
+  margin: 50px auto;
+}
+@media only screen and (max-width: 1385px) {
+  .sign-in-and-sign-up {
+    flex-direction: column;
+    text-align: center;
+  }
+ 
+ 
 }
