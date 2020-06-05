@@ -24,6 +24,9 @@ export const LogoContainer = styled(Link)`
 
 export const Logo = styled.h1`
   margin-bottom: 0;
+  @media (max-width: 600px) {
+    display: none;
+  }
 `
 
 export const OptionsContainer = styled.div`
@@ -32,6 +35,9 @@ export const OptionsContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  @media (max-width: 600px) {
+    justify-content: center
+  }
 `;
 
 export const OptionLink = styled(Link)`

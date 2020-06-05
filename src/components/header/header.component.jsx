@@ -20,7 +20,7 @@ import {
 const Header = ({ currentUser, hidden }) => (
   <HeaderContainer>
     <LogoContainer to="/">
-      <Logo>Kenashop</Logo>
+      <Logo className="logo">Kenashop</Logo>
       {/* <Logo className="logo" /> */}
     </LogoContainer>
     <OptionsContainer>
