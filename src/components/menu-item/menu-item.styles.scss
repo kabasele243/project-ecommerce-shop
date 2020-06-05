@@ -68,3 +68,33 @@
     }
   }
 }
+
+
+
+@media only screen and (max-width: 788px) {
+  .menu-item {
+    min-width: 32%;
+    height: 374px;
+    &.medium {
+      height: 360px;
+    }
+  }
+ 
+} 
+
+@media only screen and (max-width: 600px) {
+  .menu-item {
+    min-width: 50%;
+    height: 180px;
+    &.medium {
+      min-width: 50%;
+      height: 180px;
+    }
+    &.large {
+      height: 180px;
+    }
+    
+  }
+
+  
+}
